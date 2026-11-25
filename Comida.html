@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida navideña</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="comidas.js" defer></script>
+</head>
+<body>
+    <div class="enlaces">
+        <h1>NAVIDAD</h1>
+        <div class="botones">
+            <nav>
+                <ul>
+                    <li><a href="bienvenida.html">Bienvenida</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="personajes.html">Personajes</a></li>
+                    <li><a href="Regalos.html">Regalos</a></li>
+                    <li><a href="Comida.html">Comida</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="comidas">
+        <div class="comi">
+            <img src="img/tradicional-rebanadas-de-jamón-dulce-glaseado-de-miel.webp" alt="Rebanadas de jamón dulce">
+            <p>Rebanadas de jamón dulce</p>
+            <p>Precio: Bs 50</p>
+            <button type="button" class="agregar-carrito boton-agregar" data-id="jamon" data-nombre="Jamón dulce" data-precio="50">Agregar al carrito</button>
+        </div>
+        <div class="comi">
+            <img src="img/2019N296159.webp" alt="Plato de fricasé">
+            <p>Fricasé</p>
+            <p>Precio: Bs 30</p>
+            <button type="button" class="agregar-carrito boton-agregar" data-id="fricase" data-nombre="Fricasé" data-precio="30">Agregar al carrito</button>
+        </div>
+        <div class="comi">
+            <img src="img/whole-roasted-filipino-lechon-served-colorful-festive-table-fresh-herbs-delightful-dipping-sauces-displayed-364681287.webp" alt="Lechón asado">
+            <p>Lechón</p>
+            <p>Precio: Bs 35</p>
+            <button type="button" class="agregar-carrito boton-agregar" data-id="lechon" data-nombre="Lechón" data-precio="35">Agregar al carrito</button>
+        </div>
+    </div>
+    <div class="comidas">
+        <div class="comi">
+            <img src="img/683d9e2ba23d25f39739271b27db3279.webp" alt="Plato de sajta">
+            <p>Sajta</p>
+            <p>Precio: Bs 25</p>
+            <button type="button" class="agregar-carrito boton-agregar" data-id="sajta" data-nombre="Sajta" data-precio="25">Agregar al carrito</button>
+        </div>
+        <div class="comi">
+            <img src="img/pollo-asado-1024x683.webp" alt="Pollo al horno">
+            <p>Pollo al horno</p>
+            <p>Precio: Bs 70</p>
+            <button type="button" class="agregar-carrito boton-agregar" data-id="pollo" data-nombre="Pollo al horno" data-precio="70">Agregar al carrito</button>
+        </div>
+    </div>
+    <section class="carrito-navideno" aria-labelledby="titulo-carrito">
+        <h2 id="titulo-carrito">Carrito de compras</h2>
+        <div id="elementos-carrito" aria-live="polite"></div>
+        <p>Total: <span id="total-carrito">Bs 0</span></p>
+        <button type="button" id="boton-comprar" disabled>Comprar</button>
+        <p id="mensaje-compra" aria-live="polite"></p>
+    </section>
+    <footer>Diseñado por: Harold Apaza</footer>
+</body>
+</html>

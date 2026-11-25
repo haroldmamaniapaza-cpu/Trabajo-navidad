@@ -1,0 +1,165 @@
+body{
+    background-image: url(img/photo-1644886856972-1429f8cbdb0d.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.cajonera{
+    display: flex;
+}
+.historia{
+    color: white;
+    padding: 10px;
+    margin: 50px;
+    width: 50%;
+    font-size: 25px;
+}
+.arbol{
+    padding: 10px;
+    margin: 5px;
+}
+.arbol1{
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 265px;
+    height: 180px;
+}
+.perso{
+    display: flex;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+li{
+    display: inline-block;
+}
+.enlaces{
+    color: white;
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0;
+    padding: 5px;
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+}
+.imag{
+    display: flex;
+}
+.navi{
+    padding: 2px;
+    margin: 3px;
+}
+.feliz{
+    width: 100%;
+    height: 75%;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.jesus{
+    text-align: center;
+}
+.descripcion {
+    display: none;
+}
+
+.descripcion.mostrar {
+    display: block;
+}
+
+.img1 img {
+    cursor: pointer;
+}
+.regalos{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+.rega{
+    padding: 10px;
+    margin: 10px;
+}
+.regal{
+    color: white;
+}
+.comidas{
+    display: flex;
+    padding: 5px;
+    margin: 3px;
+}
+.comi{
+    padding: 7px;
+    margin: 10px;
+}
+.comidas .comi{
+    color: white;
+    text-align: center;
+    background-color: rgba(20, 83, 45, 0.9);
+    border: 2px solid #d4af37;
+    border-radius: 12px;
+}
+.boton-agregar,
+.carrito-navideno button{
+    color: white;
+    background-color: #b91c1c;
+    border: 1px solid #facc15;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin: 4px;
+    cursor: pointer;
+}
+.boton-agregar:hover,
+.carrito-navideno button:hover:not(:disabled){
+    background-color: #166534;
+}
+.carrito-navideno{
+    max-width: 700px;
+    margin: 24px auto;
+    padding: 20px;
+    color: white;
+    background-color: rgba(20, 83, 45, 0.94);
+    border: 2px solid #d4af37;
+    border-radius: 12px;
+}
+.carrito-navideno h2,
+.carrito-navideno p{
+    color: white;
+}
+.producto-carrito{
+    padding: 8px 0;
+    border-bottom: 1px solid #d4af37;
+}
+.carrito-navideno button:disabled{
+    background-color: #666;
+    border-color: #aaa;
+    cursor: not-allowed;
+}
+#mensaje-compra{
+    color: #fef3c7;
+    font-weight: bold;
+}

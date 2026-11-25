@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regalos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="regalos.js" defer></script>
+</head>
+<body>
+    <div class="enlaces">
+        <h1>Escoge tu Regalo</h1>
+        <div class="botones">
+            <nav>
+                <ul>
+                    <li><a href="bienvenida.html">Bienvenida</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="personajes.html">Personajes</a></li>
+                    <li><a href="Regalos.html">Regalos</a></li>
+                    <li><a href="Comida.html">Comida</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="regalos">
+        <div class="rega">
+            <img src="img/LEGO-Disney-Princess-43272_d25a0a83-8027-4f56-b908-d577900aae38.01e1e5f8d39bb41590ae741964c54b7e.webp" alt="">
+            <p>Lego</p>
+        </div>
+        <div class="rega">
+            <img src="img/81Efu3Se-RL.webp" alt="">
+            <p>Control Remoto</p>
+        </div>
+        <div class="rega">
+            <img src="img/301e6954-c9fb-4c86-be2c-c414dabfcd16.__CR0,0,970,600_PT0_SX970_V1___.webp" alt="">
+            <p>Lego Techic</p>
+        </div>
+    </div>
+    <div class="regalos">
+        <div class="rega">
+            <img src="img/23839cc6-7f8c-5875-a85b-82587cb49e13__45849.1720808950.webp" alt="">
+            <p>Barbie</p>
+        </div>
+        <div class="rega">
+            <img src="img/PS5PRO-hero-Packshot-US-2025.webp" alt="">
+            <p>PS5 PRO</p>
+        </div>
+        <div class="rega">
+            <img src="img/celular-samsung-galaxy-s25-ultra-256gb-5g-negro-titanio-ram-12gb-bateria-5000mah-camara-200mpx.webp" alt="">
+            <p>S25 ULTRA</p>
+        </div>
+    </div>
+    <section aria-labelledby="titulo-lista-regalos">
+        <h2 id="titulo-lista-regalos" class="regal">Mi lista de regalos</h2>
+        <form id="formulario-regalos">
+            <label for="regalo" class="regal">Escribe un regalo:</label>
+            <input type="text" id="regalo" name="regalo" maxlength="100" required>
+            <button type="submit">Agregar regalo</button>
+        </form>
+        <div id="lista-regalos" role="list" aria-live="polite" class="regal"></div>
+    </section>
+    <footer>Diseñado por: Harold Apaza</footer>
+</body>
+</html>
